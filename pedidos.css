@@ -1,0 +1,212 @@
+body {
+    background-color: #eeddaa;
+    color: #3366bb;
+    font-size: 16px;
+    font-family: "Stoke", "Lucida Bright", "Liberation", serif;
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imglogo {
+    text-align: left;
+    border-bottom: solid 4px #3366bb;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    width: 90%;
+}
+
+address {
+    text-align: right;
+    font-size: 14px;
+    font-family: "Karla", "Verdana", "Ubuntu", sans-serif;
+    font-style: italic;
+    line-height: 140%;
+    float: right;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: disc;
+    color: #3366bb;
+    line-height: 230%;
+    margin-top: 40px;
+    padding-left: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2255aa;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #2255cc;
+}
+
+section {
+    display: block;
+    /* width: 70%; */
+    width: 100%;
+    float: right;
+}
+input {
+    border-radius: 3px;
+    padding: 5px;
+}
+.apresentacao {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.apresentacao img {
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+.divCompras {
+    width: 550px;
+    background-color: #ffffbb;
+    color: #2255aa;
+    padding: 10px 10px 15px 10px;
+    font-size: 12px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+    text-align: left;
+}
+
+.fsEsq {
+    float: left;
+    display: inline;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fsDir {
+    float: right;
+    display: inline;
+    width: 240px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fsCartao {
+    margin-top: 10px;
+}
+
+.divLinha {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.colPri {
+    float: left;
+    display: block;
+    width: 90px;
+}
+
+.colPriCompras {
+    float: left;
+    display: block;
+    width: 86px;
+}
+
+.colPriPag {
+    float: left;
+    display: block;
+}
+
+.inpGrande {
+    width: 100%;
+}
+
+.impEnder {
+    height: 50px;
+}
+
+.impTelef {
+    width: 100px;
+}
+
+.impNCC {
+    width: 130px;
+}
+
+.impMedio {
+    width: 80px;
+}
+
+.numDD {
+    width: 40px;
+}
+
+.numQD {
+    width: 70px;
+}
+
+.listaCompras {
+    width: 210px;
+    height: 160px;
+    float: right;
+    margin-top: 2px;
+}
+
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+
+.divContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    width: 100%;
+}
+.divContainer div .fsDir{
+  margin-bottom: 20px;
+}
+.cartao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cartaoRight{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  text-align: end;
+}
+.cartaoRight label{
+  align-self: end;
+  margin-right: 10px;
+}
